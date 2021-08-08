@@ -1,0 +1,47 @@
+
+#conteudo{
+	background: #dcdcdc;
+	height: 600px;
+	display: flex;
+
+
+	/* row|row-reverse|column|column-reverse */
+	flex-direction: row;
+	/*flex-direction: row-reverse;*/
+	/*flex-direction: column-reverse;*/
+	
+
+	/* nowrap|wrap-reverse */
+	flex-wrap: nowrap;
+	/*flex-wrap: wrap-reverse;*/
+
+	/* flex-start|flex-end|center|space-between|space-around */
+	/*justify-content: flex-start;*/
+	/*justify-content: flex-end;*/
+	/*justify-content: center;*/
+	/*justify-content: space-between;*/
+	justify-content: space-around;
+
+
+	/* stretch|center|flex-start|flex-end|baseline */
+	/*align-items: stretch;*/
+	/*align-items: center;*/
+	/*align-items: flex-end;*/
+	align-items: baseline;
+	
+
+
+
+
+
+}
+.item{
+	
+	margin: 10px;
+	background: white;
+	border: 1px solid red;
+
+	
+}
+
+
